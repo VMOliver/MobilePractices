@@ -33,4 +33,5 @@ public class ExercicioGit {
         Scanner sc = new Scanner(System.in);
         System.out.println(CodelandUsernameValidationRegex(sc.next()));
     }
+
 }
