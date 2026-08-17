@@ -1,6 +1,6 @@
 import java.util.Scanner;
-import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /*
  * Validação de Nome de Usuário Codeland
@@ -27,7 +27,7 @@ public class ExercicioGit {
         Matcher matcher = pattern.matcher(str);
 
         // Retornamos se a string faz o "match" (encaixa) perfeitamente no padrão
-        return matcher.matches() ? "false" : "true";
+        return matcher.matches() ? "true" : "false";
     }
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
